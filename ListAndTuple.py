@@ -5,8 +5,6 @@ print(studNam)
 # str = "hello"
 # print(str[0])
 # str[0] = "Y" # this line of code cannot be done in python because strings are immutable
-
-
 # List Methods
 list = [25,3,4,5]
 list.append(4)  # Adds one element at the end.

@@ -27,9 +27,6 @@ student_info = {
 }
 print(student_info["subjects"]["physics"])
 
-
-
-
 #Methods In Dictionary
 info = {
      "name" : "Rahul Kumaer",
