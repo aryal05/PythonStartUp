@@ -34,3 +34,6 @@ average(10,45,69)
 # type()
 # range()
 
+# User Defined Function
+# The function written by the user i.e programmer is a user defined 
+
