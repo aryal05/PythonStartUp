@@ -59,6 +59,35 @@ itemss = ["Milk","Curd","Paneer","Chicken"]
 
 def sortItem(item):
     for items in item:
-        print(items,end = "")
+        print(items, end = " ")
 
 sortItem(itemss)
+
+
+cities = ["Kathmandu","Pokhara"]
+
+def places(place):
+    for city in place:
+        print(city,  end=" ")
+
+places(cities)        
+
+
+#Factorial
+
+def factorial(n):
+    fact = 1
+    for i in range(1, n + 1):
+        fact *= i
+    print("Factorial is:",fact)
+
+factorial(8)
+
+
+
+# def converter (USD_Val):
+#     NPR_exchange_rate = 120.64
+#     NPR_Val = USD_Val * NPR_exchange_rate
+#     print("The Nepalese Rupee equivalent of USD", USD_Val, "is NPR", NPR_Val)
+#     return NPR_Val
+# converter(100)
