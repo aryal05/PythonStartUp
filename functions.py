@@ -5,8 +5,16 @@
 # sum = a+b
 # print(sum)
 
-def calculate(a,b):
+
+# function Defination
+def calculate(a,b): #parameters
     sum = a +b
     print(sum)
     return sum
-calculate(45,34) #This is the argument
+calculate(45,34) #This is the argument, Function call
+
+def print_hello():
+    print("Hello!")
+
+print_hello()    
+print_hello()    
