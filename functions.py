@@ -98,3 +98,13 @@ converter(100)
 #     exchange = usd * npm
 #     print(exchange)
 # con(100)
+
+
+def finder():
+    n = int(input("Enter Number:"))
+    if(n % 2 == 0):
+        print("Even Number",n)
+    elif(n %2 !=0):
+        print("Odd number",n)
+
+finder()        
