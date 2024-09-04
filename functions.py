@@ -28,3 +28,9 @@ def average(a,b,c):
 
 average(10,45,69)
 
+#Built-in Functionss in Python
+# Print()
+# len()
+# type()
+# range()
+
