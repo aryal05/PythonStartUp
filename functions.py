@@ -37,3 +37,10 @@ average(10,45,69)
 # User Defined Function
 # The function written by the user i.e programmer is a user defined 
 
+#Default Parameter:
+#Assigning a default value to parameter, which is used when no argument is passed
+
+def parameter(a=1,b=2):
+    print("The product of a and b is:",a*b)
+    return a*b
+parameter()
