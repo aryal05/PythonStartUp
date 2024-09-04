@@ -83,11 +83,18 @@ def factorial(n):
 
 factorial(8)
 
+#Money converrter
+
+def converter (USD_Val):
+    NPR_exchange_rate = 120.64
+    NPR_Val = USD_Val * NPR_exchange_rate
+    print("The Nepalese Rupee equivalent of USD", USD_Val, "is NPR", NPR_Val)
+    return NPR_Val
+converter(100)
 
 
-# def converter (USD_Val):
-#     NPR_exchange_rate = 120.64
-#     NPR_Val = USD_Val * NPR_exchange_rate
-#     print("The Nepalese Rupee equivalent of USD", USD_Val, "is NPR", NPR_Val)
-#     return NPR_Val
-# converter(100)
+# def con(usd):
+#     npm = 120
+#     exchange = usd * npm
+#     print(exchange)
+# con(100)
