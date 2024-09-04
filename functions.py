@@ -18,3 +18,13 @@ def print_hello():
 
 print_hello()    
 print_hello()    
+
+
+# Finding the average of three numbers
+def average(a,b,c):
+    avg = a +b + c/3
+    print("The average of three numbers is: ", avg)
+    return avg
+
+average(10,45,69)
+
