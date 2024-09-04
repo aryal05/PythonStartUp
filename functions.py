@@ -44,3 +44,21 @@ def parameter(a=1,b=2):
     print("The product of a and b is:",a*b)
     return a*b
 parameter()
+
+
+
+#Questions
+
+def length():
+    str = "Hello"
+    print("The length of the string is: ", len(str))
+    return len(str)
+length()
+
+itemss = ["Milk","Curd","Paneer","Chicken"]
+
+def sortItem(item):
+    for items in item:
+        print(items,end = "")
+
+sortItem(itemss)
