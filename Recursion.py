@@ -21,7 +21,8 @@ print(fact(4))
 
 def sum(n):
    if(n == 0):
-      return
-   print(n)
-   sum(n-1)
-sum(12)
+      return 0
+  
+   return sum(n-1) + n
+print(sum(12))
+
