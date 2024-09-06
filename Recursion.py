@@ -12,9 +12,16 @@ show(5)
 
 
 def fact(n):
-   if(n == 0):
+   if(n == 1 or n ==0):
       return 1
    else:
       return n * fact(n-1)
    
 print(fact(4))   
+
+def sum(n):
+   if(n == 0):
+      return
+   print(n)
+   sum(n-1)
+sum(12)
