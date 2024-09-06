@@ -38,11 +38,11 @@ print(lis(list))
 
 
 
-# def hg(n):
-#    if(n ==1):
-#       return
-#    print(n)
-#    hg(n-1)
-# hg(23)
+def hg(n):
+   if(n ==1):
+      return
+   print(n)
+   hg(n-1)
+hg(23)
 
 
