@@ -26,3 +26,12 @@ def sum(n):
    return sum(n-1) + n
 print(sum(12))
 
+
+list = ["car","bike","truck", "plane"]
+
+def lis(lists,index=0):
+   if(index == len(lists)):
+      return
+   print(lists[index])
+   lis(lists,index+1)
+print(lis(list))
