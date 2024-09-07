@@ -33,3 +33,7 @@ append.write("\nThis is appended text in the existing file.")
 append.close()
 
 
+# To Create new txt file in the folder
+new_file = open("new_demo.txt", "w")
+new_file.write("This is a new file created using python")
+new_file.close()
