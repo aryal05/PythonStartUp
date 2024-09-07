@@ -6,9 +6,13 @@
 #Binary Files (.mp4, .jpg, .exe etc)
 
 f = open("demo.txt", "r")
-
 data = f.read()
-
 print(data)
 print(type(data))
+f.close()
+
+
+f = open("demo.txt", "r")
+line = f.readline()
+print(line)
 f.close()
