@@ -5,13 +5,14 @@
 
 #Binary Files (.mp4, .jpg, .exe etc)
 
+# To read all the lines in the file
 f = open("demo.txt", "r")
 data = f.read()
 print(data)
 print(type(data))
 f.close()
 
-
+# To read the first line
 f = open("demo.txt", "r")
 line = f.readline()
 print(line)
@@ -28,6 +29,7 @@ write.close()
 
 # Writing in file using append
 append = open("demo.txt", "a")
-append.write(" This is appended text in the existing file.")
-
+append.write("\nThis is appended text in the existing file.")
 append.close()
+
+

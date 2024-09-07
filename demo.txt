@@ -1,1 +1,2 @@
-This is the changed file due to writing method This is appended text in the existing file./n
+This is the changed file due to writing method
+ This is appended text in the existing file.
