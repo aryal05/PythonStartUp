@@ -43,3 +43,13 @@ read_write = open("demo.txt", "r+")
 data = read_write.read()
 read_write.write("\nThis is the changed file due to read write method ")
 read_write.close()
+
+
+#With Syntax
+with open("with_demo.txt", "w+") as write_with:
+    write_with.write("This is the changed file due to write method using with syntax")
+    data = write_with.read()
+    print(data)
+
+    write_with.close()
+    
