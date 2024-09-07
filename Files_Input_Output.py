@@ -50,6 +50,12 @@ with open("with_demo.txt", "w+") as write_with:
     write_with.write("This is the changed file due to write method using with syntax")
     data = write_with.read()
     print(data)
+# at the end we dont need to close the code manually if we usse with syntax.
 
-    write_with.close()
+
+# Deleting the file
+# Deleting file using os module
+import os
+os.remove("domo.txt")
+
     
