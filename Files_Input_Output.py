@@ -4,3 +4,4 @@
 #Text Files (.txt, .docx, .log etc)
 
 #Binary Files (.mp4, .jpg, .exe etc)
+
