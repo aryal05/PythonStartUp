@@ -55,7 +55,23 @@ with open("with_demo.txt", "w+") as write_with:
 
 # Deleting the file
 # Deleting file using os module
-import os
-os.remove("domo.txt")
+# import os
+# os.remove("domo.txt")
 
     
+#Practice 
+
+# Creating new file and then writting in it.
+with open("practice.txt", "w") as pract:
+    pract.write("This is the practice file")
+    pract.write("\nJava")
+    print("File written successfully.")
+# Reading and overWriting the data
+with open("practice.txt", "r+") as pract:
+    data = pract.read()
+# Replacing Java with Python
+new_data = data.replace("Java","Pythom")
+# Uploading the new replaced file.
+with open("practice.txt", "w") as pract:
+  pract.write(new_data)
+print(new_data)    
