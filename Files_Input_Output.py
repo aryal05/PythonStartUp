@@ -37,3 +37,9 @@ append.close()
 new_file = open("new_demo.txt", "w")
 new_file.write("This is a new file created using python")
 new_file.close()
+
+# To do reading and writing at the same time
+read_write = open("demo.txt", "r+")
+data = read_write.read()
+read_write.write("\nThis is the changed file due to read write method ")
+read_write.close()
