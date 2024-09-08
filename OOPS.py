@@ -45,3 +45,19 @@ print(infomation2.marks)
  #object.attr 
 
  #And always object attr > class attr
+
+
+# Methods
+#Methods are fucntions that belongs to object
+
+
+class stud:
+    def __init__(self, name):
+        self.name = name
+
+    def hello(self):
+        print("Hello, my name is " + self.name)
+    
+s = stud("Rajat")
+s.hello()
+      
