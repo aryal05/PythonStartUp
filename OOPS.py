@@ -20,3 +20,9 @@ print(my_car.color)
 # The __init__() method can take in parameters, which are assigned to instance variables and are used 
 # to define the properties of the class.\
 
+class info:
+    def __init__(self, fullname):
+        self.fullname = fullname
+        print("Adding stud in database")
+infomation = info("Rajat")        
+print(infomation.fullname)
