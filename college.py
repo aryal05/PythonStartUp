@@ -1,4 +1,4 @@
-print("Pranjal")
+
 pi = 3.14
 radius = int(input("Enter R: "))
 areaOfCircle = pi * radius**2
