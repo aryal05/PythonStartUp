@@ -24,6 +24,7 @@ print(my_car.color)
 #The self parameter is a eference to the current instance of the class, and is used to access variables that belonmgs tot he class 
 
 class info:
+    college_name = "college"
     def __init__(self,name,marks):
         self.name = name
         self.marks = marks
@@ -37,3 +38,10 @@ print(infomation.marks)
 infomation2 = info("Adit",90)        
 print(infomation2.name)
 print(infomation2.marks)
+
+
+#Class And Instance Attributes
+ #Class.attr
+ #object.attr 
+
+ #And always object attr > class attr
