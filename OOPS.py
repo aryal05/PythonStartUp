@@ -21,7 +21,7 @@ print(my_car.color)
 # to define the properties of the class.\
 
 
-#The self parameter is a eference to the current instance of the class, and is used to access variables that belonmgs tot he class 
+#The self parameter is a reference to the current instance of the class, and is used to access variables that belonngs to the class 
 
 class info:
     college_name = "college"
@@ -50,14 +50,37 @@ print(infomation2.marks)
 # Methods
 #Methods are fucntions that belongs to object
 
-
+#Crreating Class
 class stud:
     def __init__(self, name):
         self.name = name
 
     def hello(self):
         print("Hello, my name is " + self.name)
-    
+#Creating Object    
 s = stud("Rajat")
 s.hello()
       
+
+#Question
+# create student class that takes name and marks of 3 subjects as arguments in constructor
+# Then create a method to print the average
+
+
+class student:
+    def __init__(self, name, marks):
+        self.name=name
+        self.marks = marks
+
+    def avg_marks(self):
+        sum = 0
+        for mark in self.marks:
+            sum += mark
+        print("Hello", self.name, "Your Average Score is:",sum/3)    
+
+
+
+
+s1 = student("AsP singh",[98,99,97])
+
+s1.avg_marks()
