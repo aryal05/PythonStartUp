@@ -20,9 +20,20 @@ print(my_car.color)
 # The __init__() method can take in parameters, which are assigned to instance variables and are used 
 # to define the properties of the class.\
 
+
+#The self parameter is a eference to the current instance of the class, and is used to access variables that belonmgs tot he class 
+
 class info:
-    def __init__(self, fullname):
-        self.fullname = fullname
+    def __init__(self,name,marks):
+        self.name = name
+        self.marks = marks
         print("Adding stud in database")
-infomation = info("Rajat")        
-print(infomation.fullname)
+infomation = info("Rajat",99)        
+print(infomation.name)
+print(infomation.marks)
+
+
+
+infomation2 = info("Adit",90)        
+print(infomation2.name)
+print(infomation2.marks)
