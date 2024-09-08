@@ -6,10 +6,10 @@
 
 #Creating Class
 class Car:
-    name = "lambo"
+    # name = "lambo"
     color = "red" 
     speed = 200
 
 #Creating Object
 my_car = Car()
-print(my_car)
+print(my_car.color)
