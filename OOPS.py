@@ -93,13 +93,12 @@ s1.avg_marks()
 # Static Methods are those parameters that don't use delf parameter.
 
 class static:
-    @staticmethod
+    @staticmethod # This is also called decorator which allows us to  wrap another function in order to,
+                  # extent the behaviour of the wrapped function,  without permanently modifying it.
+
     def college():
         print("This is a static method. It belongs to the class, not an instance of the class.")
-        
-        # You can call a static method without creating an instance of the class
-        static.college()
-        
-        #staticmethod can't access class variables
-        class static2:
-            a = 0
+    
+# You can call a static method without creating an instance of the class
+static.college()
+                
