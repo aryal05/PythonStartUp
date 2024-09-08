@@ -13,3 +13,10 @@ class Car:
 #Creating Object
 my_car = Car()
 print(my_car.color)
+
+
+#Constructor
+#All classes have a function called __init__(), which is always called when an object is created from a class.
+# The __init__() method can take in parameters, which are assigned to instance variables and are used 
+# to define the properties of the class.\
+
